@@ -1,0 +1,195 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 「Rime词库扩展计划」——为小狼毫打造一个强大好用的词库（OpenCC重制版） by @imy0823
+#
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 於重新部署後生效
+#
+
+---
+name: luna_pinyin.biaoqing
+version: "2014.09.07"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+<(￣︶￣)↗ 	v y w z	100
+╳╳○○	v y w z	100
+(╯—﹏—)╯（ ┷━━━┷ 	v y w z	100
+(￣∇￣)	v y w z	100
+(｡>ㅅ<｡)	v y w z	100
+(╯｀□′)╯	v y w z	100
+~(^ω^)	v y w z	100
+(o′ω`o)ノ	v y w z	100
+(╬▼皿▼）	v y w z	100
+╮(╯3╰)╭	v y w z	100
+w(?Д?)w	v y w z	100
+(≧口≦)	v y w z	100
+"((>ω<))	v y w z	100
+╮(￣▽￣")╭	v y w z	100
+╮(╯_╰)╭	v y w z	100
+~(*￣▽￣*)ブ	v y w z	100
+┗|｀′|┛	v y w z	100
+ヾ(≧≦)〃	v y w z	100
+＼(◎◎)／	v y w z	100
+(>▽<)	v y w z	100
+ヽ(???)メ	v y w z	100
+(?-ω-)	v y w z	100
+ヾ(￣▽￣)e~	v y w z	100
+(^0^)/	v y w z	100
+(^人^)	v y w z	100
+(ˉ▽ˉ；)	v y w z	100
+(っ*′Д`)っ	v y w z	100
+(〃'▽'〃)	v y w z	100
+(`０‘)ノ	v y w z	100
+§(*￣▽￣*)§	v y w z	100
+(*￣︿￣)	v y w z	100
+(゜▽゜)☆	v y w z	100
+╮(︶︿︶）╭	v y w z	100
+(￣△￣；)	v y w z	100
+(ˉ▽ˉ；)	v y w z	100
+(-_-メ)	v y w z	100
+(′▽`〃)	v y w z	100
+(￣▽￣")	v y w z	100
+(￣_￣|||)	v y w z	100
+(°△°|||)	v y w z	100
+(^^)	v y w z	100
+（*＾-＾*）	v y w z	100
+(*^▽^*)	v y w z	100
+(′▽`〃)	v y w z	100
+≡￣﹏￣≡	v y w z	100
+(￣?￣;)	v y w z	100
+(*￣▽￣*)	v y w z	100
+（￣。。￣）	v y w z	100
+(￣ヘ￣＃)	v y w z	100
+(；′⌒`)	v y w z	100
+(；一_一)	v y w z	100
+（┭┮﹏┭┮）	v y w z	100
+✪ω✪	v y w z	100
+( ◉ืൠ◉ื)	v y w z	100
+ʅ（◞‸◟）ʃ	v y w z	100
+(｡◝‿◜｡)	v y w z	100
+(´◞⊖◟`)	v y w z	100
+-\(˙<>˙)/--	v y w z	100
+︶ε╰✿	v y w z	100
+o‿≖✧	v y w z	100
+( ◔ ڼ ◔ )	v y w z	100
+í﹏ì	v y w z	100
+(。≖ˇェˇ≖｡)	v y w z	100
+┗(´D`* (´D`*(´D`*)┛	v y w z	100
+( ´◔ ‸◔`)	v y w z	100
+ㄟ(◑‿◐ )ㄏ	v y w z	100
+⊙.⊙	v y w z	100
+”(*´ｪ`*)”	v y w z	100
+<(▰˘◡˘▰)>	v y w z	100
+(●'◡'●)ﾉ♥	v y w z	100
+(・ω< )★	v y w z	100
+(☍﹏⁰)	v y w z	100
+(｡◕ˇ∀ˇ◕）	v y w z	100
+(♥◠‿◠)ﾉ	v y w z	100
+~Ⴚ(●ტ●)Ⴢ~	v y w z	100
+✧ (≖ ‿ ≖)✧	v y w z	100
+✪ω✪	v y w z	100
+ℰ⋆‿⋆ℰ	v y w z	100
+இwஇ	v y w z	100
+థ౪థ	v y w z	100
+(,,Ծ‸Ծ,,)	v y w z	100
+(๑◕ܫ￩๑)b	v y w z	100
+ლ(╹◡╹ლ )	v y w z	100
+／人◕ ‿‿ ◕人＼	v y w z	100
+ಠ_ಠ	v y w z	100
+(๑°3°๑)	v y w z	100
+(˘❥˘)	v y w z	100
+(๑꒪◞౪◟꒪๑)	v y w z	100
+(๑￫ܫ￩)	v y w z	100
+｡◕‿◕｡	v y w z	100
+(╬▔＾▔)凸	v y w z	100
+(*ﾟｪﾟ*)	v y w z	100
+(# 罒╭─╮罒 #)	v y w z	100
+(๑꒪◞౪◟꒪๑)	v y w z	100
+ლↀѡↀლ	v y w z	100
+v( ^-^(ё_ёゝ	v y w z	100
+✷(ꇐ‿ꇐ)✷	v y w z	100
+(♩￢3￢)	v y w z	100
+Σ(OAO”	v y w z	100
+＼(◎o◎)／ 	v y w z	100
+ヾ(≧O≦)〃	v y w z	100
+ヾ(￣▽￣)Bye~Bye~ 	v y w z	100
+o(￣┰￣*)ゞ 	v y w z	100
+(＠￣ー￣＠) 	v y w z	100
+(；′⌒`) 	v y w z	100
+^-^	v y w z	100
+（╯‵□′）╯︵┴─┴ 	v y w z	100
+ˋ( ° ▽、° )	v y w z	100
+( >﹏<。)～	v y w z	100
+(￣o￣) . z Z 	v y w z	100
+(o-ωｑ)).oO	v y w z	100
+m( =∩王∩= )m	v y w z	100
+（ ￣ー￣）	v y w z	100
+o(=·ェ·=)m	v y w z	100
+(￣_,￣ )	v y w z	100
+￣△￣ 	v y w z	100
+((+o+)) 	v y w z	100
+∑(′□｀；)	v y w z	100
+(σ｀д′)σ	v y w z	100
+--\(˙<>˙)/--	v y w z	100
+ε(┬﹏┬)3 	v y w z	100
+Oh~ no！！！！	v y w z	100
+(〓￣(∵エ∵)￣〓)  	v y w z	100
+Oh yeah！\(^&^)/ 	v y w z	100
+(゜゜)～	v y w z	100
+OK 	v y w z	100
+φ(-ω-*) 	v y w z	100
+ヾ(＠⌒ー⌒＠)ノ 	v y w z	100
+┴┴︵╰（‵□′）╯︵┴┴	v y w z	100
+╥﹏╥... 	v y w z	100
+σ（⌒ー⌒）	v y w z	100
+(☆-ｖ-)	v y w z	100
+(＠￣ー￣＠)	v y w z	100
+(￣▽￣")	v y w z	100
+(✿✪‿✪｡)ﾉ	v y w z	100
+┳＿┳	v y w z	100
+\("▔□▔)/	v y w z	100
+o(≥口≤)o	v y w z	100
+(￣ε￣*)	v y w z	100
+o(≥v≤)o	v y w z	100
+('︶︿︶)o	v y w z	100
+(●'◡'●)ﾉ	v y w z	100
+(◕ω＜)	v y w z	100
+o((>ω<))o	v y w z	100
+（⊙_⊙?）	v y w z	100
+ヽ(≥Д≤)ノ	v y w z	100
+(●＾ω＾●）	v y w z	100
+(p≥w≤q)	v y w z	100
+(ㄒoㄒ)/	v y w z	100
+┳＿┳	v y w z	100
+n(*≥▽≤*)n	v y w z	100
+(*^__^*)	v y w z	100
+(┳＿┳)	v y w z	100
+o(*////▽////*)q	v y w z	100
+π_π	v y w z	100
+~\(≥▽≤)/~	v y w z	100
+＞▽＜	v y w z	100
+(●´艸‘)ヾ	v y w z	100
+（*＾～＾*）	v y w z	100
+(*^▽^*)ゞ	v y w z	100
+（*/∇＼*）	v y w z	100
+(*´ー‘*)	v y w z	100
+￣ω￣	v y w z	100
+(〃ω〃)	v y w z	100
+<(▰˘◡˘▰)>	v y w z	100
+(｡◝‿◜｡)	v y w z	100
+(♥◠‿◠)ﾉ	v y w z	100
+✪ω✪	v y w z	100
+(,,Ծ‸Ծ,,)	v y w z	100
+ಠ_ಠ	v y w z	100
+(⊙x⊙;)	v y w z	100
+(。-ω-)	v y w z	100
+Orz	v y w z	100
+

@@ -154,8 +154,8 @@ sort: by_weight
 ぜ	ze
 ぞ	zo
 だ	da
-ぢ	ji
-づ	zu
+ぢ	di
+づ	du
 で	de
 ど	do
 ば	ba
@@ -179,8 +179,8 @@ sort: by_weight
 ゼ	ze
 ゾ	zo
 ダ	da
-ヂ	ji
-ヅ	zu
+ヂ	di
+ヅ	du
 デ	de
 ド	do
 バ	ba
@@ -388,8 +388,8 @@ sort: by_weight
 って	tte
 っと	tto
 っだ	dda
-っぢ	jji
-っづ	zzu
+っぢ	ddi
+っづ	ddu
 っで	dde
 っど	ddo
 っは	hha
@@ -439,8 +439,8 @@ sort: by_weight
 ッテ	tte
 ット	tto
 ッダ	dda
-ッヂ	jji
-ッヅ	zzu
+ッヂ	ddi
+ッヅ	ddu
 ッデ	dde
 ッド	ddo
 ッハ	hha
