@@ -2,10 +2,16 @@
 
 因为没发现一个同时支持中文和日语的输入方案, 所以我就自建一个. 同时基于日语配列的键盘做了一些个人配置.
 
-日语配列下 grave 符号 不是在数字1左侧, 而是在字母P右侧, 而且需要使用shift才能打出, 所以我把方案切换改为了 `Ctrl + .`, 这样的话通过period翻页的方式也被禁用. 其他快捷键在 [`default.yaml`] 中可查看.
+- `Ctrl + .` : 方案切换, 日语配列下 grave 符号 不是在数字1左侧, 而是在字母P右侧, 而且需要使用shift才能打出, 所以我把方案切换改为了 `Ctrl + .`, 这样的话通过period翻页的方式也被禁用. 其他快捷键在 [`default.yaml`] 中可查看.
+- `Shift_L` : 输入码上屏, 然后切换英语
+- `Shift_R` : 首选候选码上屏, 然后切换英语
+- `Enter` : 输入码上屏, 不切换
+
 
 基于[iDvel/雾凇拼音](https://github.com/iDvel/rime-ice), 皮肤使用了[Mintimate/oh-my-rime](https://github.com/Mintimate/oh-my-rime)的配置.
 其他参考的项目在文末.
+
+其中一些额外配置, 如降低英文单词的权重需要更新librime, 参考了[rime-ice/issues](https://github.com/iDvel/rime-ice/issues/133)
 
 ## 中文输入
 

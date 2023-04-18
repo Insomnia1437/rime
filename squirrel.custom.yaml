@@ -7,6 +7,8 @@ patch:
   "preset_color_schemes/MyStyleMi":
     name: 蓝水鸭／MyStyleMi
     author: Mintimate <"Mintimate's Blog">
+    candidate_list_layout: linear  # stacked | linear  候选项排列方向
+    text_orientation: horizontal    # horizontal | vertical  文字排列方向
     text_color: 0x6495ed #拼音串
     candidate_text_color: 0x424242 # 非第一候选项
     back_color: 0xefefef # 背景
@@ -21,6 +23,8 @@ patch:
   "preset_color_schemes/MyStyleMiDark":
     name: 黑水鸭／MyStyleMiDark
     author: Mintimate <"Mintimate's Blog">
+    candidate_list_layout: linear  # stacked | linear  候选项排列方向
+    text_orientation: horizontal    # horizontal | vertical  文字排列方向
     text_color: 0x6495ed #拼音串
     candidate_text_color: 0xefefef # 非第一候选项
     back_color: 0x424242 # 背景
