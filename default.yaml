@@ -12,7 +12,8 @@ config_version: '2023-03-03'
 # 方案列表
 schema_list:
   - schema: rime_ice
-  - schema: japanese
+  # - schema: japanese
+  - schema: jaroomaji
   # - schema: luna_pinyin
 
 # 菜单

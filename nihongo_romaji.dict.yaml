@@ -1,0 +1,40 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# A Japanese dictionary
+# Adopted from Mozc IME with dictionary licensed in Public Domain
+#
+
+---
+name: nihongo_romaji
+version: "0.1"
+sort: by_weight
+...
+
+# This is some testing phrases, the real dictionary is not imported.
+中州韻	りめ	1
+あああっ	あああっ	1
+あい明日	あいあす	1
+あいある	あいある	1
+アイアンと	あいあんと	1
+あいおん	あいおん	1
+あいキッズ	あいきっず	1
+あいさん	あいさん	1
+愛ステーション	あいすてーしょん	1
+アイスと	あいすと	1
+開いてる	あいてる	1
+あいです	あいです	1
+あいとぴあ	あいとぴあ	1
+相葉ちゃん	あいばちゃん	1
+愛ヒーリング	あいひーりんぐ	1
+愛プラザ	あいぷらざ	1
+アイリスと	あいりすと	1
+あうあう	あうあう	1
+合う合う	あうあう	1
+あおばずく	あおばずく	1
+あかしで	あかしで	1
+あかるい未来	あかるいみらい	1
+あかんあかん	あかんあかん	1
+あかんと	あかんと	1
+秋葉原デパート	あきはばらでぱーと	1
+区間	くかん	1
