@@ -226,3 +226,4 @@ NASA	nasa
 gone	gone
 Go程	gocheng
 Manjaro	manjaro
+Logseq	logseq

@@ -33,7 +33,7 @@ switches:
     reset: 1
   - name: traditionalization
     states: [ 简, 繁 ]
-    reset: 0
+    # reset: 0
   - name: emoji
     states: [ 💀, 😄 ]
     reset: 1
