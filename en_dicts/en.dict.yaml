@@ -8,13 +8,13 @@
 #
 # 来源：
 # 常见两万词 [20k.txt](https://github.com/first20hours/google-10000-english/)
-# 合并不重复的 1000 多左右 [融合拼音方案](https://github.com/tumuyan/rime-melt) 的英文词库 
+# 合并不重复的 1000 多左右 [融合拼音方案](https://github.com/tumuyan/rime-melt) 的英文词库
 #
 # 注释掉单个字母、绝大部分两个字母的缩写、冷门缩写
 # 转化应当大写的单词
 ---
 name: en
-version: "2023-04-06"
+version: "2023-10-14"
 sort: by_weight
 ...
 # +_+
@@ -482,7 +482,7 @@ aiming	aiming
 aims	aims
 air	air
 airborne	airborne
-air-conditioning	airconditioning
+air-conditioning	air-conditioning
 aircraft	aircraft
 aired	aired
 aires	aires
@@ -522,7 +522,7 @@ Alaskan	Alaskan
 alba	alba
 albania	albania
 Albanian	Albanian
-albany	albany
+Albany	Albany
 albeit	albeit
 Albert	Albert
 Alberta	Alberta
@@ -552,7 +552,7 @@ Alfred	Alfred
 algae	algae
 algebra	algebra
 algebraic	algebraic
-algeria	algeria
+Algeria	Algeria
 algorithm	algorithm
 algorithms	algorithms
 Ali	Ali
@@ -735,7 +735,7 @@ amuse	amuse
 amusement	amusement
 amusing	amusing
 Amy	Amy
-an	an
+# an	an
 ana	ana
 anabolic	anabolic
 anaheim	anaheim
@@ -853,7 +853,7 @@ answering	answering
 answers	answers
 ant	ant
 antarctic	antarctic
-antarctica	antarctica
+Antarctica	Antarctica
 ante	ante
 antenna	antenna
 antennas	antennas
@@ -921,7 +921,7 @@ apology	apology
 apoptosis	apoptosis
 apostle	apostle
 apostles	apostles
-App	App
+app	app
 appal	appal
 Appalachian	Appalachian
 apparatus	apparatus
@@ -998,7 +998,7 @@ approx	approx
 approximate	approximate
 approximately	approximately
 approximation	approximation
-Apps	Apps
+apps	apps
 Apr.	Apr
 April	April
 apron	apron
@@ -1048,8 +1048,8 @@ areas	areas
 arena	arena
 Ares	Ares
 arg	arg
-argentina	argentina
-argentine	argentine
+Argentina	Argentina
+Argentine	Argentine
 Argos	Argos
 args	args
 arguably	arguably
@@ -1075,13 +1075,13 @@ Aristotle	Aristotle
 arithmetic	arithmetic
 arizona	arizona
 ark	ark
-arkansas	arkansas
+Arkansas	Arkansas
 arlington	arlington
 arm	arm
 armada	armada
 Armani	Armani
 armed	armed
-armenia	armenia
+Armenia	Armenia
 Armenian	Armenian
 armies	armies
 armor	armor
@@ -1132,6 +1132,7 @@ article	article
 articles	articles
 articulate	articulate
 articulated	articulated
+artifact	artifact
 artifacts	artifacts
 artificial	artificial
 artillery	artillery
@@ -1169,8 +1170,8 @@ Ashley	Ashley
 ashore	ashore
 Ashton	Ashton
 # ASI	ASI
-asia	asia
-asian	asian
+Asia	Asia
+Asian	Asian
 Asians	Asians
 aside	aside
 Asin	Asin
@@ -1274,7 +1275,7 @@ Atari	Atari
 ate	ate
 atheist	atheist
 Athena	Athena
-athens	athens
+Athens	Athens
 athlete	athlete
 athletes	athletes
 athletic	athletic
@@ -1345,9 +1346,9 @@ attribution	attribution
 ATV	ATV
 # atx	atx
 # au	au
-auburn	auburn
+Auburn	Auburn
 Auch	Auch
-auckland	auckland
+Auckland	Auckland
 auction	auction
 auctions	auctions
 AUD	AUD
@@ -1879,7 +1880,7 @@ Benz	Benz
 berg	berg
 Bergen	Bergen
 Berger	Berger
-berkeley	berkeley
+Berkeley	Berkeley
 Berkshire	Berkshire
 berlin	berlin
 BerliOS	BerliOS
@@ -2137,7 +2138,7 @@ blue	blue
 bluegrass	bluegrass
 blueprint	blueprint
 blues	blues
-bluetooth	bluetooth
+Bluetooth	Bluetooth
 bluff	bluff
 blunder	blunder
 blunt	blunt
@@ -2163,7 +2164,6 @@ boasts	boasts
 boat	boat
 boating	boating
 boats	boats
-bob	bob
 Bob	Bob
 bobby	bobby
 BOC	BOC
@@ -2647,7 +2647,7 @@ by	by
 bye	bye
 bylaws	bylaws
 bypass	bypass
-by-product	byproduct
+by-product	by-product
 Byrd	Byrd
 Byrne	Byrne
 Byron	Byron
@@ -2785,6 +2785,7 @@ canon	canon
 canonical	canonical
 canopy	canopy
 cans	cans
+can't	can't
 cant	cant
 canteen	canteen
 canterbury	canterbury
@@ -3325,7 +3326,7 @@ Christopher	Christopher
 Christy	Christy
 chromatography	chromatography
 chrome	chrome
-Chromium	Chromium
+chromium	chromium
 chromosome	chromosome
 chronic	chronic
 chronicle	chronicle
@@ -4754,9 +4755,9 @@ damn	damn
 damned	damned
 damon	damon
 damp	damp
-dams	dams
-dan	dan
-dana	dana
+# dams	dams
+# dan	dan
+# dana	dana
 dance	dance
 dancer	dancer
 dancers	dancers
@@ -5316,7 +5317,7 @@ dictator	dictator
 dictionaries	dictionaries
 dictionary	dictionary
 did	did
-didn't	didnt
+didn't	didn't
 didrex	didrex
 die	die
 diecast	diecast
@@ -5611,7 +5612,7 @@ Djibouti	Djibouti
 # djs	djs
 # dk	dk
 # dl	dl
-dll	dll
+DLL	DLL
 # dlp	dlp
 # dm	dm
 # dma	dma
@@ -5646,7 +5647,7 @@ dodge	dodge
 dodgers	dodgers
 doe	doe
 does	does
-doesn't	doesnt
+doesn't	doesn't
 dog	dog
 dogg	dogg
 dogs	dogs
@@ -5690,7 +5691,7 @@ Donna	Donna
 donor	donor
 donors	donors
 Donovan	Donovan
-don't	dont
+don't	don't
 # dont	dont
 # doo	doo
 doom	doom
@@ -6180,7 +6181,7 @@ elsewhere	elsewhere
 Elton	Elton
 elvis	elvis
 # em	em
-emacs	emacs
+Emacs	Emacs
 email	email
 emailed	emailed
 emails	emails
@@ -6501,7 +6502,7 @@ errors	errors
 erupt	erupt
 # es	es
 # esa	esa
-ESC	ESC
+Esc	Esc
 escalate	escalate
 escape	escape
 escaped	escaped
@@ -7254,7 +7255,7 @@ firmware	firmware
 first	first
 FirstGov	FirstGov
 firstly	firstly
-first-rate	firstrate
+first-rate	first-rate
 fiscal	fiscal
 Fischer	Fischer
 fish	fish
@@ -7419,7 +7420,7 @@ follower	follower
 followers	followers
 following	following
 follows	follows
-follow-up	followup
+follow-up	follow-up
 # fomit	fomit
 fond	fond
 font	font
@@ -7591,7 +7592,7 @@ Francois	Francois
 francs	francs
 frank	frank
 Frank	Frank
-Frankfurt	frankfurt
+Frankfurt	Frankfurt
 Frankie	Frankie
 franklin	franklin
 frankly	frankly
@@ -7699,6 +7700,7 @@ FTP	FTP
 # fu	fu
 fuck	fuck
 fucked	fucked
+fucker	fucker
 fuckers	fuckers
 # fuckin	fuckin
 fucking	fucking
@@ -7789,8 +7791,8 @@ galactic	galactic
 galaxies	galaxies
 galaxy	galaxy
 gale	gale
-galerie	galerie
-galileo	galileo
+# galerie	galerie
+Galileo	Galileo
 Gallagher	Gallagher
 galleries	galleries
 gallery	gallery
@@ -8331,7 +8333,7 @@ growers	growers
 growing	growing
 growl	growl
 grown	grown
-grown-up	grownup
+grown-up	grown-up
 grows	grows
 growth	growth
 grumble	grumble
@@ -8552,9 +8554,9 @@ Harry	Harry
 harry	harry
 harsh	harsh
 hart	hart
-hartford	hartford
+Hartford	Hartford
 Hartley	Hartley
-harvard	harvard
+Harvard	Harvard
 harvest	harvest
 harvested	harvested
 harvesting	harvesting
@@ -8750,7 +8752,7 @@ Hershey	Hershey
 Hertfordshire	Hertfordshire
 hertz	hertz
 Herzegovina	Herzegovina
-# hes	hes
+he's	he's
 hesitate	hesitate
 Hess	Hess
 # het	het
@@ -8879,7 +8881,7 @@ holland	holland
 hollow	hollow
 Holloway	Holloway
 holly	holly
-hollywood	hollywood
+Hollywood	Hollywood
 Holmes	Holmes
 holocaust	holocaust
 holster	holster
@@ -9200,7 +9202,7 @@ IE	IE
 # iec	iec
 IEEE	IEEE
 # ies	ies
-# ietf	ietf
+IETF	IETF
 if	if
 # ifdef	ifdef
 # ifs	ifs
@@ -9222,7 +9224,6 @@ ignoring	ignoring
 # ik	ik
 # il	il
 # ile	ile
-ill	ill
 illegal	illegal
 illegally	illegally
 illicit	illicit
@@ -9911,7 +9912,7 @@ islanders	islanders
 islands	islands
 isle	isle
 isles	isles
-# isnt	isnt
+isn't	isn't
 ISO	ISO
 isolate	isolate
 isolated	isolated
@@ -9920,7 +9921,7 @@ isolation	isolation
 ISP	ISP
 # isps	isps
 Israel	Israel
-Israeli	israeli
+Israeli	Israeli
 Israelis	Israelis
 # iss	iss
 ISSN	ISSN
@@ -9935,9 +9936,9 @@ istanbul	istanbul
 # isuzu	isuzu
 it	it
 # ita	ita
-italia	italia
+Italia	Italia
 Italian	Italian
-Italiano	italiano
+Italiano	Italiano
 italic	italic
 italicized	italicized
 Italy	Italy
@@ -9948,10 +9949,10 @@ iteration	iteration
 Ithaca	Ithaca
 itinerary	itinerary
 # itk	itk
-its	its
+it's	it's
 itself	itself
 # itu	itu
-itunes	itunes
+iTunes	iTunes
 # ity	ity
 # iu	iu
 # iv	iv
@@ -10309,8 +10310,8 @@ keygen	keygen
 Keynes	Keynes
 keynote	keynote
 keypad	keypad
-# keys	keys
-# keystone	keystone
+keys	keys
+keystone	keystone
 keyword	keyword
 keywords	keywords
 # kg	kg
@@ -10763,7 +10764,7 @@ Lester	Lester
 let	let
 lethal	lethal
 # letras	letras
-lets	lets
+let's	let's
 # lett	lett
 letter	letter
 lettering	lettering
@@ -11453,9 +11454,9 @@ marine	marine
 mariner	mariner
 mariners	mariners
 Marines	Marines
-marino	marino
-mario	mario
-marion	marion
+Marino	Marino
+Mario	Mario
+Marion	Marion
 marital	marital
 maritime	maritime
 mark	mark
@@ -11709,7 +11710,7 @@ melt	melt
 melted	melted
 melting	melting
 Melvin	Melvin
-mem	mem
+# mem	mem
 member	member
 # memberlistmemberlist	memberlistmemberlist
 members	members
@@ -12154,8 +12155,8 @@ monstrous	monstrous
 montana	montana
 monte	monte
 Montenegro	Montenegro
-monterey	monterey
-montgomery	montgomery
+Monterey	Monterey
+Montgomery	Montgomery
 month	month
 monthly	monthly
 months	months
@@ -12376,7 +12377,7 @@ MVC	MVC
 # mvp	mvp
 # mw	mw
 # mx	mx
-# my	my
+my	my
 myanmar	myanmar
 myers	myers
 myocardial	myocardial
@@ -12827,7 +12828,7 @@ nozzle	nozzle
 # nt	nt
 # ntp	ntp
 # ntsc	ntsc
-# nu	nu
+nu	nu
 nuclear	nuclear
 nuclei	nuclei
 nucleic	nucleic
@@ -12884,7 +12885,7 @@ NYSE	NYSE
 # oa	oa
 Oahu	Oahu
 oak	oak
-oakland	oakland
+Oakland	Oakland
 Oakley	Oakley
 oaks	oaks
 Oakwood	Oakwood
@@ -12963,7 +12964,7 @@ oceanic	oceanic
 oceans	oceans
 # och	och
 # oclc	oclc
-o'clock	oclock
+o'clock	o'clock
 # ocr	ocr
 Oct.	Oct
 octave	octave
@@ -13569,7 +13570,7 @@ passages	passages
 passed	passed
 passenger	passenger
 passengers	passengers
-passer-by	passerby
+passer-by	passer-by
 passes	passes
 passing	passing
 passion	passion
@@ -13947,7 +13948,7 @@ physiol	physiol
 physiological	physiological
 physiology	physiology
 physiopathology	physiopathology
-# pi	pi
+pi	pi
 pianist	pianist
 piano	piano
 piazza	piazza
@@ -14169,13 +14170,13 @@ pneumonia	pneumonia
 PNG	PNG
 # po	po
 pocket	pocket
-# PocketPC	PocketPC
+Pocket PC	PocketPC
 pockets	pockets
 pod	pod
 podcast	podcast
 podcasting	podcasting
 podcasts	podcasts
-# poe	poe
+poe	poe
 poem	poem
 poems	poems
 poet	poet
@@ -14524,7 +14525,7 @@ pressure	pressure
 pressures	pressures
 prestige	prestige
 prestigious	prestigious
-preston	preston
+Preston	Preston
 presumably	presumably
 presume	presume
 presumed	presumed
@@ -14570,7 +14571,7 @@ primitive	primitive
 prince	prince
 princes	princes
 princess	princess
-princeton	princeton
+Princeton	Princeton
 principal	principal
 principally	principally
 principals	principals
@@ -14836,7 +14837,7 @@ psalm	psalm
 psalms	psalms
 # psc	psc
 pseudo	pseudo
-# psi	psi
+psi	psi
 PSP	PSP
 # pst	pst
 # psu	psu
@@ -16603,7 +16604,7 @@ sec	sec
 second	second
 secondary	secondary
 seconded	seconded
-second-hand	secondhand
+second-hand	second-hand
 secondly	secondly
 seconds	seconds
 secrecy	secrecy
@@ -16904,7 +16905,6 @@ sheila	sheila
 Shelby	Shelby
 Sheldon	Sheldon
 shelf	shelf
-shell	shell
 Shelley	Shelley
 shellfish	shellfish
 shells	shells
@@ -17161,7 +17161,7 @@ sixty	sixty
 # siyabona	siyabona
 size	size
 sized	sized
-sizeof	sizeof
+# sizeof	sizeof
 sizes	sizes
 sizing	sizing
 # sj	sj
@@ -17352,7 +17352,7 @@ soaring	soaring
 sober	sober
 # sobre	sobre
 # soc	soc
-so-called	socalled
+so-called	so-called
 soccer	soccer
 sociable	sociable
 social	social
@@ -17596,7 +17596,7 @@ spice	spice
 spices	spices
 spicy	spicy
 spider	spider
-spiderman	spiderman
+Spider-Man	Spider-Man
 spiders	spiders
 spies	spies
 spike	spike
@@ -17663,7 +17663,7 @@ spreadsheet	spreadsheet
 spreadsheets	spreadsheets
 spring	spring
 springer	springer
-springfield	springfield
+Springfield	Springfield
 springs	springs
 sprinkle	sprinkle
 sprint	sprint
@@ -17759,8 +17759,8 @@ standing	standing
 standings	standings
 standpoint	standpoint
 stands	stands
-stanford	stanford
-stanley	stanley
+Stanford	Stanford
+Stanley	Stanley
 Stanton	Stanton
 staple	staple
 staples	staples
@@ -18017,7 +18017,7 @@ struggling	struggling
 struts	struts
 # sts	sts
 # stu	stu
-stuart	stuart
+Stuart	Stuart
 stub	stub
 stubborn	stubborn
 stuck	stuck
@@ -18474,7 +18474,7 @@ tailor	tailor
 tailored	tailored
 tails	tails
 Taipei	Taipei
-taiwan	taiwan
+Taiwan	Taiwan
 taj	taj
 Tajikistan	Tajikistan
 take	take
@@ -18646,7 +18646,7 @@ tell	tell
 teller	teller
 telling	telling
 tells	tells
-telnet	telnet
+Telnet	Telnet
 Telstra	Telstra
 # tem	tem
 temp	temp
@@ -18769,7 +18769,7 @@ thanks	thanks
 thanksgiving	thanksgiving
 thanx	thanx
 that	that
-thats	thats
+that's	that's
 # thb	thb
 the	the
 theater	theater
@@ -18811,7 +18811,7 @@ therefore	therefore
 therein	therein
 thereof	thereof
 thereon	thereon
-Theres	Theres
+there's	there's
 Theresa	Theresa
 thereto	thereto
 thermal	thermal
@@ -18853,7 +18853,7 @@ Thompson	Thompson
 Thomson	Thomson
 thong	thong
 thongs	thongs
-# thor	thor
+Thor	Thor
 thorn	thorn
 Thornton	Thornton
 thorough	thorough
@@ -19029,7 +19029,7 @@ tobago	tobago
 toby	toby
 # toc	toc
 today	today
-today's	todays
+today's	today's
 Todd	Todd
 toddler	toddler
 toddlers	toddlers
@@ -19097,7 +19097,6 @@ topology	topology
 topped	topped
 # topps	topps
 tops	tops
-Tor	Tor
 tor	tor
 torah	torah
 torch	torch
@@ -19161,7 +19160,7 @@ toxicity	toxicity
 toxicology	toxicology
 toxins	toxins
 toy	toy
-toyota	toyota
+Toyota	Toyota
 toys	toys
 # tp	tp
 # tr	tr
@@ -19667,7 +19666,7 @@ unfortunately	unfortunately
 unhappy	unhappy
 # uni	uni
 UNICEF	UNICEF
-unicode	unicode
+Unicode	Unicode
 unidentified	unidentified
 unified	unified
 uniform	uniform
@@ -19778,7 +19777,7 @@ upstream	upstream
 uptake	uptake
 uptime	uptime
 # upto	upto
-up-to-date	uptodate
+up-to-date	up-to-date
 uptown	uptown
 upward	upward
 upwards	upwards
@@ -20137,8 +20136,7 @@ virus	virus
 viruses	viruses
 # vis	vis
 Visa	Visa
-visa	visa
-visas	visas
+Visas	Visas
 viscous	viscous
 visibility	visibility
 visible	visible
@@ -20490,7 +20488,7 @@ welfare	welfare
 well	well
 Wellbutrin	Wellbutrin
 wellington	wellington
-well-known	wellknown
+well-known	well-known
 wellness	wellness
 wells	wells
 welsh	welsh
@@ -20525,7 +20523,7 @@ whales	whales
 wharf	wharf
 what	what
 whatever	whatever
-whats	whats
+what's	what's
 whatsoever	whatsoever
 wheat	wheat
 Wheaton	Wheaton
@@ -20736,6 +20734,7 @@ wondering	wondering
 wonderland	wonderland
 wonders	wonders
 # wong	wong
+won't	won't
 wont	wont
 woo	woo
 Wood	Wood
@@ -20780,7 +20779,7 @@ workspace	workspace
 workstation	workstation
 workstations	workstations
 world	world
-worldcat	worldcat
+WorldCat	WorldCat
 worlds	worlds
 worldsex	worldsex
 worldwide	worldwide
@@ -20863,13 +20862,13 @@ Xbox	Xbox
 # xd	xd
 # xda	xda
 # xe	xe
-# xemacs	xemacs
+XEmacs	XEmacs
 Xenical	Xenical
 Xeon	Xeon
 xerox	xerox
 # xf	xf
 XHTML	XHTML
-# xi	xi
+xi	xi
 # xii	xii
 # xiii	xiii
 # xiv	xiv
@@ -20902,10 +20901,10 @@ XXL	XXL
 # ya	ya
 yacht	yacht
 yachts	yachts
-yahoo	yahoo
+Yahoo	Yahoo
 Yakima	Yakima
-yale	yale
-yamaha	yamaha
+Yale	Yale
+Yamaha	Yamaha
 yan	yan
 yang	yang
 Yankee	Yankee
