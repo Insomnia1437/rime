@@ -2,8 +2,10 @@
 # encoding: utf-8
 #
 # This file was converted from KANJIDIC2
-# See original license:
+# See original license(CC BY-SA 4.0):
 # https://www.edrdg.org/edrdg/licence.html
+# https://creativecommons.org/licenses/by-sa/4.0/
+# https://creativecommons.org/licenses/by-sa/4.0/legalcode
 #
 
 ---
@@ -3464,6 +3466,7 @@ use_preset_vocabulary: false
 殺す	ko ro su	8888
 殺し	go ro si	8888
 殺ぐ	so gu	8888
+殺める	a ya me ru	8888
 薩	sa tu	8000
 薩	sa ti	8000
 雑	za tu	8000
@@ -8339,6 +8342,8 @@ use_preset_vocabulary: false
 貧	bi nn	8000
 貧しい	ma zu si i	8888
 賓	hi nn	8000
+賓	ma ro u do	8888
+賓	si ta ga u	8888
 頻	hi nn	8000
 頻りに	si ki ri ni	8888
 敏	bi nn	8000
@@ -21012,8 +21017,6 @@ use_preset_vocabulary: false
 傖	si xyo u	8000
 傖	so u	8000
 傖しい	i ya si i	8888
-傖	i ya si i mo no	8888
-傖	i na ka mo no	8888
 傛	yo u	8000
 傛	yu	8000
 傛む	ka ga mu	8888
@@ -21481,7 +21484,6 @@ use_preset_vocabulary: false
 剅ける	sa ke ru	8888
 剉	sa	8000
 剉	ku zi ku	8888
-剉る	ka do wo to ru	8888
 剕	hi	8000
 剕る	a si ki ru	8888
 剗	sa nn	8000
@@ -22114,7 +22116,6 @@ use_preset_vocabulary: false
 呮ける	ko si ka ke ru	8888
 呴	ku	8000
 呴	ko u	8000
-呴める	i ki wo ka ke te a ta ta me ru	8888
 呿	ka	8000
 呿	kyo	8000
 呿	ki xyo	8000
@@ -22128,7 +22129,6 @@ use_preset_vocabulary: false
 咁む	hu ku mu	8888
 咃	ta	8000
 咅	to u	8000
-咅む	tu ba wo ha i te i na mu	8888
 咈	hu tu	8000
 咈	bu ti	8000
 咈	hi tu	8000
@@ -22251,7 +22251,6 @@ use_preset_vocabulary: false
 唅	ka nn	8000
 唅	ko nn	8000
 唅む	hu ku mu	8888
-唅	hu ku ma se mo no	8888
 唈	o u	8000
 唈	yu u	8000
 唈く	na ge ku	8888
@@ -22281,7 +22280,6 @@ use_preset_vocabulary: false
 唫	go nn	8000
 唫	ki nn	8000
 唫る	do mo ru	8888
-唫じる	ku ti wo to zi ru	8888
 唫う	u ta u ta u	8888
 唲	zi	8000
 唲	ni	8000
@@ -24821,7 +24819,6 @@ use_preset_vocabulary: false
 弙	u	8000
 弙	ko	8000
 弙	ku	8000
-弙う	yu mi wo ha xtu te ne ra u	8888
 弙つ	mo tu	8888
 弜	kyo u	8000
 弜	ki xyo u	8000
@@ -24869,8 +24866,6 @@ use_preset_vocabulary: false
 弶	kyo u	8000
 弶	ki xyo u	8000
 弶	go u	8000
-弶る	a mi wo ha ru	8888
-弶ける	wa na wo ka ke ru	8888
 弻	hi tu	8000
 弻ける	ta su ke ru	8888
 弻	yu da me	8888
@@ -25838,7 +25833,6 @@ use_preset_vocabulary: false
 拖く	hi ku	8888
 拚	he nn	8000
 拚	hu nn	8000
-拚つ	te wo u tu	8888
 拪	se nn	8000
 拪	i	8000
 拪る	u tu ru	8888
@@ -26194,7 +26188,6 @@ use_preset_vocabulary: false
 搩	tya ku	8000
 搩	ti xya ku	8000
 搩ぐ	ka tu gu	8888
-搩る	te de mo no wo ha ka ru	8888
 搪	to u	8000
 搪る	ha ru	8888
 搯	to u	8000
@@ -26394,7 +26387,6 @@ use_preset_vocabulary: false
 擗	hya ku	8000
 擗	hi xya ku	8000
 擗	ha ku	8000
-擗つ	mu ne wo u tu	8888
 擤	ko u	8000
 擤	kyo u	8000
 擤	ki xyo u	8000
@@ -26887,7 +26879,6 @@ use_preset_vocabulary: false
 曂	o u	8000
 曂らか	a ki ra ka	8888
 曃	ta i	8000
-曃	a ki ra ka de na i	8888
 曈	to u	8000
 曈	tu	8000
 曈い	ho no gu ra i	8888
@@ -27520,7 +27511,6 @@ use_preset_vocabulary: false
 榸	ku i	8888
 榺	syo u	8000
 榺	si xyo u	8000
-榺ぐ	ha ta ke no i si wo ka tu gu	8888
 榼	ko u	8000
 榼る	sa ka da ru	8888
 榼	sa ka zu ki	8888
@@ -30006,7 +29996,8 @@ use_preset_vocabulary: false
 甿	mi xyo u	8000
 甿	bo u	8000
 畀	hi	8000
-畀	a ta e ru mo no	8888
+畀える	a ta e ru	8888
+畀う	ta ma u	8888
 畃	syu nn	8000
 畃	si xyu nn	8000
 畃け	i i tu ke	8888
@@ -30539,7 +30530,6 @@ use_preset_vocabulary: false
 眴す	me ku wa su	8888
 眴せる	me ku wa se ru	8888
 眵	si	8000
-眵める	ma na zi ri wo i ta me ru	8888
 眶	kyo u	8000
 眶	ki xyo u	8000
 眶	ko u	8000
@@ -30714,7 +30704,6 @@ use_preset_vocabulary: false
 矞	si xyu tu	8000
 矞	zyu ti	8000
 矞	zi xyu ti	8000
-矞ける	a na wo a ke ru	8888
 矟	sa ku	8000
 矟	ho ko	8888
 矠	sa ku	8000
@@ -33447,7 +33436,6 @@ use_preset_vocabulary: false
 莀	no u	8000
 莂	he tu	8000
 莂	he ti	8000
-莂く	ta ne wo ma ku	8888
 莂える	u tu si u e ru	8888
 莄	ko u	8000
 莄	kyo u	8000
@@ -33961,7 +33949,6 @@ use_preset_vocabulary: false
 薁	o u	8000
 薁	ni wa u me	8888
 薅	ko u	8000
-薅る	ku ki wo to ru	8888
 薆	a i	8000
 薆	ki	8000
 薆	ke	8000
@@ -38308,7 +38295,6 @@ use_preset_vocabulary: false
 靣	tu ra	8888
 靧	ka i	8000
 靧	ke	8000
-靧う	ka o wo a ra u	8888
 靪	te i	8000
 靪	tyo u	8000
 靪	ti xyo u	8000
@@ -38403,7 +38389,6 @@ use_preset_vocabulary: false
 鞼い	tu yo i	8888
 鞼	ku zi ku	8888
 鞼	ku zi ke ru	8888
-鞼	nu i to ri wo si ta na me si ga wa	8888
 鞾	ka	8000
 鞾	ku tu	8888
 鞿	ki	8000
@@ -38438,7 +38423,6 @@ use_preset_vocabulary: false
 韎	ba i	8000
 韎	ma i	8000
 韎	ba tu	8000
-韎	a ka ne zo me no ka wa	8888
 韐	ko u	8000
 韐	kyo u	8000
 韐	ki xyo u	8000
@@ -38518,7 +38502,6 @@ use_preset_vocabulary: false
 頙しい	ta da si i	8888
 頍	ki	8000
 頍	ke nn	8000
-頍げる	a ta ma wo a ge ru	8888
 頎	ki	8000
 頎	ge	8000
 頎	ki nn	8000
@@ -38552,7 +38535,6 @@ use_preset_vocabulary: false
 頫く	u tu mu ku	8888
 頮	ka i	8000
 頮	ke	8000
-頮う	ka o wo a ra u	8888
 頯	ka i	8000
 頯	kyu u	8000
 頯	ki xyu u	8000
@@ -38619,7 +38601,6 @@ use_preset_vocabulary: false
 顣	se ki	8000
 顣	sya ku	8000
 顣	si xya ku	8000
-顣める	ma yu wo hi so me ru	8888
 顥	ko u	8000
 顥い	si ro i	8888
 顦	syo u	8000

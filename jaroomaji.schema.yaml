@@ -1,4 +1,4 @@
-﻿# Rime schema
+# Rime schema
 # encoding: utf-8
 # 
 # License: Apache License 2.0
@@ -22,12 +22,15 @@ schema:
 # 機能切り替えの設定
 # # # # # # # # # # # # # # # # # # # #
 switches:
-  - name: ascii_mode
-    states: [ あ, A ]
-    reset: 0  # デフォルトで英数モード
+  - name: ascii_punct
+    states: [ ¥, $ ]
+    reset: 1
   - name: full_shape
     states: [ 半角記号, 全角記号 ]
     reset: 0  # デフォルトで半角記号モード
+  - name: ascii_mode
+    states: [ あ, A ]
+    reset: 0
 
 # # # # # # # # # # # # # # # # # # # #
 # 読み込むエンジンの設定
@@ -64,7 +67,6 @@ speller:
   alphabet: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-"
   initials: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-"
   delimiter: " "
-  algebra:
   algebra:
     - "derive/-/l/"
     - "derive/-/L/"
@@ -242,7 +244,7 @@ translator:
   enable_completion: false
   preedit_format:
     # 区切り文字の空白は消す
-    # - "xform/ //"
+    - "xform/ //"
     # ひらがな(変換優先順)
     - "xform/nn/ん/"
     - "xform/xtsu/っ/"
@@ -508,7 +510,7 @@ translator:
     - "xform/u/う/"
     - "xform/i/い/"
     - "xform/a/あ/"
-    # - "xform/n/ん/"
+    - "xform/n/ん/"
     # 小さい「っ」
     - "xform/k/っ/"
     - "xform/c/っ/"
@@ -821,8 +823,6 @@ translator:
 # # # # # # # # # # # # # # # # # # # #
 # 記号入力の設定
 # # # # # # # # # # # # # # # # # # # #
-# punctuator:
-  # import_preset: symbols_custom_ja
 punctuator:
   full_shape:
     ' ' : '　'
@@ -860,10 +860,10 @@ punctuator:
 # # # # # # # # # # # # # # # # # # # #
 key_binder:
   import_preset: default
-#   bindings:
-#     - { when: has_menu, accept: minus, send: minus }  # 「ー」入力用
-#     - { when: has_menu, accept: Return, send: Shift+Return }  # Enterで変換しないで直接確定
-#     - { when: has_menu, accept: Shift+Return, send: Return }  # Shift + Enterで英字確定
+  # bindings:
+  #   - { when: has_menu, accept: minus, send: minus }  # 「ー」入力用
+  #   - { when: has_menu, accept: Return, send: Shift+Return }  # Enterで変換しないで直接確定
+  #   - { when: has_menu, accept: Shift+Return, send: Return }  # Shift + Enterで英字確定
 
 # # # # # # # # # # # # # # # # # # # #
 # メールアドレスやURLを入力したときに英字モードに自動切り替え

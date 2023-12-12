@@ -7,8 +7,12 @@
 - `Shift_R` : 首选候选码上屏, 然后切换英语
 - `Enter` : 输入码上屏, 不切换
 
+参考的项目
 
-基于[iDvel/雾凇拼音](https://github.com/iDvel/rime-ice), 皮肤使用了[Mintimate/oh-my-rime](https://github.com/Mintimate/oh-my-rime)的配置.
+- 中文输入基于[iDvel/雾凇拼音](https://github.com/iDvel/rime-ice)
+- 皮肤使用了[Mintimate/oh-my-rime](https://github.com/Mintimate/oh-my-rime)的配置.
+- 日语输入基于[lazyfoxchan/rime-jaroomaji](https://github.com/lazyfoxchan/rime-jaroomaji)
+
 其他参考的项目在文末.
 
 其中一些额外配置, 如降低英文单词的权重需要更新librime, 参考了[rime-ice/issues](https://github.com/iDvel/rime-ice/issues/133)
@@ -53,7 +57,7 @@
 
 ### TODO
 
-- 日语的标点输入有些问题, 原因未知.
+- 暂无
 
 ## 参考/致谢
 
@@ -64,3 +68,4 @@
 5. [gkovacs/rime-japanese](https://github.com/gkovacs/rime-japanese)
 6. [DreamAfar/Rime-Japanese ](https://github.com/DreamAfar/Rime-Japanese)
 7. [日本語のローマ字表記の推奨形式](https://park.itc.u-tokyo.ac.jp/eigo/UT-Komaba-Nihongo-no-romaji-hyoki-v1.pdf)
+8. [lazyfoxchan/rime-jaroomaji](https://github.com/lazyfoxchan/rime-jaroomaji)

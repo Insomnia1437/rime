@@ -226,3 +226,8 @@ gone	gone
 Go程	gocheng
 Manjaro	manjaro
 Logseq	logseq
+MicroTCA	microtca
+epics	epics
+AMC	amc
+MCH	mch
+backplane	backplane
