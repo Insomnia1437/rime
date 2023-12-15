@@ -208,11 +208,9 @@
 什么的	smd
 什么是	sms
 什么啊	sma
-没有	my
-没有	meiy
 
-Go	go	2
-go	go	1
+
+go	go
 Golang	golang
 Hugo	hugo
 goto	goto
@@ -224,6 +222,8 @@ Amazon	amazon
 NASA	nasa
 gone	gone
 Go程	gocheng
+code	code
+SOHO	soho
 Manjaro	manjaro
 Logseq	logseq
 MicroTCA	microtca

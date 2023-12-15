@@ -6,7 +6,7 @@
 schema:
   schema_id: rime_ice
   name: 雾凇拼音
-  version: "2023-08-07"
+  version: "2023-10-22"
   author:
     - Dvel
   description: |
@@ -28,14 +28,14 @@ switches:
   - name: traditionalization
     states: [ 简, 繁 ]
     reset: 0
-  - name: full_shape
-    states: [ 半角, 全角 ]
-    reset: 0
   - name: emoji
     states: [ 💀, 😄 ]
     reset: 1
+  - name: full_shape
+    states: [ 半角, 全角 ]
+    reset: 0
   - name: ascii_mode
-    states: [ 中, Ａ ]
+    states: [ 中, Ａ ] 
     reset: 0
 
 # 输入引擎
@@ -84,14 +84,19 @@ date_translator:
   timestamp: ts  # 时间戳： 1669716794
 
 
-# Lua 配置: 降低部分英语单词在候选项的位置
+# Lua 配置: 降低部分英语单词在候选项的位置。
 # 详细介绍 https://dvel.me/posts/make-rime-en-better/#短单词置顶的问题
 # 正常情况： 输入 rug 得到 「1.rug 2.如果 …… 」
 # 降低之后： 输入 rug 得到 「1.如果 2.rug …… 」
+# 几种模式：
+# all     降低所有 3~4 位长度、前 2~3 位是完整拼音、最后一位是声母的单词
+# none    不降低任何单词，相当于没有启用这个 Lua
+# custom  自定义，只降低 words 里的
+# （匹配的是编码，不是单词）
 reduce_english_filter:
-  # 降低到第 idx 个位置
-  idx: 2
-  # 要降低的单词，匹配的是输入码，即全小写。
+  mode: custom  # all | none | custom
+  idx: 2        # 降低到第 idx 个位置
+  # 自定义的单词列表，示例列表没有降低部分常用单词，如 and cat mail Mac but bad shit ……
   words: [aid, ann,
   bail, bait, bam, band, bans, bat, bay, bend, bent, benz, bib, bid, bien, biz, boc, bop, bos, bud, buf,
   cab, cad, cain, cam, cans, cap, cas, cef, chad, chan, chap, chef, cher, chew, chic, chin, chip, chit, coup, cum, cunt, cur,
@@ -209,7 +214,7 @@ speller:
     # - derive/^([zcs])h/$1/
     # - derive/^([zcs])([^h])/$1h$2/
     # - derive/^l/n/  # 解释：为 l 开头的拼写派生出 n 开头，即 nai 也可以输出「来、莱、赖……」
-    # - derive/^n/l/  # 可以单向或双向启用模糊音
+    # - derive/^n/l/  # lai 可输出「奶」，可以单向或成对儿启用模糊音
     # - derive/^f/h/
     # - derive/^h/f/
     # - derive/^l/r/
