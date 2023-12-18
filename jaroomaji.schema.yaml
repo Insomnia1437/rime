@@ -10,7 +10,7 @@
 schema:
   schema_id: jaroomaji
   name: 日本語ローマ字
-  version: "1.0"
+  version: "2023-12-18"
   author:
     - lazy fox chan
   description: |
@@ -22,15 +22,15 @@ schema:
 # 機能切り替えの設定
 # # # # # # # # # # # # # # # # # # # #
 switches:
-  - name: ascii_punct
-    states: [ ¥, $ ]
-    reset: 1
-  - name: full_shape
-    states: [ 半角記号, 全角記号 ]
-    reset: 0  # デフォルトで半角記号モード
   - name: ascii_mode
     states: [ あ, A ]
     reset: 0
+  - name: ascii_punct
+    states: [ ¥, $ ]
+    reset: 0
+  - name: full_shape
+    states: [ 半角記号, 全角記号 ]
+    reset: 0  # デフォルトで半角記号モード
 
 # # # # # # # # # # # # # # # # # # # #
 # 読み込むエンジンの設定
