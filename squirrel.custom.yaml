@@ -1,7 +1,15 @@
 patch:
   app_options:
-    # com.apple.Spotlight:
-    #   ascii_mode: true    # 开启默认英文
+    com.apple.Spotlight:
+      ascii_mode: true    # 开启默认英文
+    org.alacritty:
+      ascii_mode: true
+    com.uranusjr.macdown:
+      ascii_mode: true
+    org.mozilla.firefox:
+      ascii_mode: true
+    com.raycast.macos:
+      ascii_mode: true
     com.microsoft.VSCode:
       ascii_mode: true   # 关闭默认英文
   "preset_color_schemes/MyStyleMi":
