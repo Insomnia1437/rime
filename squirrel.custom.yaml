@@ -11,7 +11,7 @@ patch:
     com.raycast.macos:
       ascii_mode: true
     com.microsoft.VSCode:
-      ascii_mode: true   # 关闭默认英文
+      ascii_mode: true   
   "preset_color_schemes/MyStyleMi":
     name: 蓝水鸭／MyStyleMi
     author: Mintimate <"Mintimate's Blog">

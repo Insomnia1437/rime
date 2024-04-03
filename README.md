@@ -16,6 +16,9 @@
 其他参考的项目在文末.
 
 其中一些额外配置, 如降低英文单词的权重需要更新librime, 参考了[rime-ice/issues](https://github.com/iDvel/rime-ice/issues/133)
+## 安装
+Windows上可以用winget
+Mac上使用`brew install --cask squirrel`
 
 ## 中文输入
 
@@ -55,7 +58,29 @@
 
 但对于鼻音的输入, 使用分隔符显得麻烦. 最好是能做到自动识别, 比如输入konyaku, 会同时候选こんやく和こにゃく.
 
-### TODO
+## 在Mac上的某些app中默认不启用中文
+
+首先得到某个app的Identifier, 以Firefox为例, 以下命令会得到`org.mozilla.firefox`
+`cat /Applications/Firefox.app/Contents/Info.plist| grep -A 1 BundleIdentifier| sed -n '2p'| tr -d ' '| cut -d '<' -f 2 | cut -d '>' -f 2`
+然后在`squirrel.custom.yaml`文件中加入需要设定的app Identifier
+```yaml
+patch:
+  app_options:
+    com.apple.Spotlight:
+      ascii_mode: true    # 开启默认英文
+    org.alacritty:
+      ascii_mode: true
+    com.uranusjr.macdown:
+      ascii_mode: true
+    org.mozilla.firefox:
+      ascii_mode: true
+    com.raycast.macos:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+```
+
+## TODO
 
 - 暂无
 
