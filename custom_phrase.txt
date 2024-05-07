@@ -230,3 +230,5 @@ Bootloader	bootloader
 raspi	raspi
 Raspi	raspi
 asyn	asyn
+vxWorks	vxwo
+iocInit	ioci
