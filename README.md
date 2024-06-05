@@ -61,7 +61,9 @@ Mac上使用`brew install --cask squirrel`
 ## 在Mac上的某些app中默认不启用中文
 
 首先得到某个app的Identifier, 以Firefox为例, 以下命令会得到`org.mozilla.firefox`
+
 `cat /Applications/Firefox.app/Contents/Info.plist| grep -A 1 BundleIdentifier| sed -n '2p'| tr -d ' '| cut -d '<' -f 2 | cut -d '>' -f 2`
+
 然后在`squirrel.custom.yaml`文件中加入需要设定的app Identifier
 ```yaml
 patch:
