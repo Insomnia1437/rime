@@ -18,7 +18,13 @@
 其中一些额外配置, 如降低英文单词的权重需要更新librime, 参考了[rime-ice/issues](https://github.com/iDvel/rime-ice/issues/133)
 ## 安装
 Windows上可以用winget
-Mac上使用`brew install --cask squirrel`
+
+Mac上使用
+```shell
+brew install --cask squirrel
+rm -rf ~/Library/Rime
+git clone https://github.com/Insomnia1437/rime.git ~/Library/Rime/
+```
 
 ## 中文输入
 
