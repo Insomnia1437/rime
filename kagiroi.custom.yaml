@@ -1,0 +1,8 @@
+# Kagiroi 个人补丁。
+# 上游 schema 和词库可以直接更新；本文件保留本项目的按键习惯。
+
+patch:
+  # 不使用上游的 -/= 翻页，避免影响日语长音「ー」。
+  # Ctrl+u/i/o 模式快捷键也不需要，字符模式统一从 Ctrl+. 菜单选择。
+  key_binder/bindings:
+    __include: default:/key_binder/bindings

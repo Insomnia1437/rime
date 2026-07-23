@@ -1,0 +1,7 @@
+# Rime table
+# coding: utf-8
+#@db/db_name	kagiroi_custom_phrases
+#@db/db_type	tabledb
+#
+# 个人日语固定词条：词语<Tab>平假名读音
+# 例：固有名詞	こゆうめいし

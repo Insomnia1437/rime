@@ -9,6 +9,7 @@ user.yaml
 *.custom.yaml
 !default.custom.yaml
 !rime_ice.custom.yaml
+!kagiroi.custom.yaml
 !squirrel.custom.yaml
 !weasel.custom.yaml
 

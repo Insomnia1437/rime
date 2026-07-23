@@ -4,7 +4,7 @@
 
 完整的快捷键、中文与日语输入技巧见：[Rime 使用速查](usage.md)。
 
-- `Ctrl + .` : 方案切换, 日语配列下 grave 符号 不是在数字1左侧, 而是在字母P右侧, 而且需要使用shift才能打出, 所以我把方案切换改为了 `Ctrl + .`, 这样的话通过period翻页的方式也被禁用. 其他快捷键在 [`default.yaml`] 中可查看.
+- `Ctrl + .` : 打开常用方案菜单，可选择中文、普通日语、全角片假名、半角片假名和全角英数。日语配列下 grave 符号不在数字 1 左侧，而是在字母 P 右侧且需要 Shift，因此改用 `Ctrl + .`。
 - `Shift_L` : 输入码上屏, 然后切换英语
 - `Shift_R` : 首选候选码上屏, 然后切换英语
 - `Enter` : 输入码上屏, 不切换
@@ -13,7 +13,9 @@
 
 - 中文输入基于[iDvel/雾凇拼音](https://github.com/iDvel/rime-ice)
 - 皮肤使用了[Mintimate/oh-my-rime](https://github.com/Mintimate/oh-my-rime)的配置.
-- 日语输入基于[lazyfoxchan/rime-jaroomaji](https://github.com/lazyfoxchan/rime-jaroomaji)
+- 日语输入基于[rimeinn/rime-kagiroi](https://github.com/rimeinn/rime-kagiroi)，
+  使用 Mozc 词典、连接矩阵和 Viterbi 转换。当前同步至上游
+  `1951bab`（2026-05-15）。
 
 其他参考的项目在文末.
 
@@ -103,4 +105,5 @@ patch:
 5. [gkovacs/rime-japanese](https://github.com/gkovacs/rime-japanese)
 6. [DreamAfar/Rime-Japanese ](https://github.com/DreamAfar/Rime-Japanese)
 7. [日本語のローマ字表記の推奨形式](https://park.itc.u-tokyo.ac.jp/eigo/UT-Komaba-Nihongo-no-romaji-hyoki-v1.pdf)
-8. [lazyfoxchan/rime-jaroomaji](https://github.com/lazyfoxchan/rime-jaroomaji)
+8. [rimeinn/rime-kagiroi](https://github.com/rimeinn/rime-kagiroi)
+9. [lazyfoxchan/rime-jaroomaji](https://github.com/lazyfoxchan/rime-jaroomaji)（旧日语方案，配置文件仅作为回退保留）

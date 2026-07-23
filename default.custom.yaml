@@ -4,10 +4,14 @@
 patch:
   schema_list:
     - schema: rime_ice
-    - schema: jaroomaji
+    - schema: kagiroi
+    - schema: kagiroi_katakana
+    - schema: kagiroi_half_katakana
+    - schema: kagiroi_fullwidth
 
-  # F4 保留完整方案菜单；Ctrl+. 在 key_binder 中直接切换最近的两个方案。
+  # Ctrl+. 打开五项常用方案菜单；F4 保留为备用入口。
   switcher/hotkeys:
+    - Control+period
     - F4
 
   # 保留原有的左右 Shift 行为。
@@ -29,8 +33,6 @@ patch:
 
   # 完整替换上游快捷键列表，以免 -/= 翻页影响日语长音输入。
   key_binder/bindings:
-    - { when: always, accept: Control+period, select: .next }
-
     - { when: composing, accept: Shift+Tab, send: Shift+Left }
     - { when: composing, accept: Tab, send: Shift+Right }
 
@@ -71,4 +73,3 @@ patch:
     - { when: composing, accept: KP_Subtract, send: minus }
     - { when: composing, accept: KP_Divide, send: slash }
     - { when: composing, accept: KP_Enter, send: Return }
-

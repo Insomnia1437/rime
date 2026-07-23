@@ -1,0 +1,82 @@
+# Rime schema
+# encoding: utf-8
+#
+# Kagiroi 菜单配套的全角英数输入。
+# Shift 切换 ascii_mode 后仍可临时输入半角英数字。
+
+schema:
+  schema_id: kagiroi_fullwidth
+  name: 英数・全角
+  version: "2026-07-23"
+  author:
+    - personal customization
+  description: |
+    ASCII 英数字转换为全角形式。
+    Shift 切换到 A 状态后输入半角英数字。
+
+switches:
+  - name: ascii_mode
+    states: [ Ａ, A ]
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - lua_translator@*fullwidth_ascii_translator
+    - punct_translator
+  filters:
+    - uniquifier
+
+speller:
+  alphabet: 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+  initials: 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+key_binder:
+  import_preset: default
+
+punctuator:
+  half_shape:
+    " ": "　"
+    "!": "！"
+    '"': "＂"
+    "#": "＃"
+    "$": "＄"
+    "%": "％"
+    "&": "＆"
+    "'": "＇"
+    "(": "（"
+    ")": "）"
+    "*": "＊"
+    "+": "＋"
+    ",": "，"
+    "-": "－"
+    ".": "．"
+    "/": "／"
+    ":": "："
+    ";": "；"
+    "<": "＜"
+    "=": "＝"
+    ">": "＞"
+    "?": "？"
+    "@": "＠"
+    "[": "［"
+    "\\": "＼"
+    "]": "］"
+    "^": "＾"
+    "_": "＿"
+    "`": "｀"
+    "{": "｛"
+    "|": "｜"
+    "}": "｝"
+    "~": "～"
