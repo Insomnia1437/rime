@@ -1,0 +1,46 @@
+# 三个 Kagiroi 方案共享的个人处理链与半角日语标点。
+
+processors:
+  - lua_processor@*kagiroi_ascii_width_processor
+  - ascii_composer
+  - recognizer
+  - key_binder
+  - lua_processor@*kagiroi_input_mode_processor
+  - speller
+  - punctuator
+  - selector
+  - navigator
+  - express_editor
+
+# 半角方案使用的标点；全角方案切换到半角时也使用同一映射。
+half_shape:
+  " ": { commit: " " }
+  ",": { commit: "､" }
+  ".": { commit: "｡" }
+  "/": [ "･", "/" ]
+  "?": { commit: "?" }
+  "!": { commit: "!" }
+  ";": { commit: ";" }
+  ":": { commit: ":" }
+  "'": { commit: "'" }
+  '"': { commit: '"' }
+  "\\": [ "\\", "¥" ]
+  "|": { commit: "|" }
+  "`": { commit: "`" }
+  "~": { commit: "~" }
+  "@": { commit: "@" }
+  "#": { commit: "#" }
+  "%": { commit: "%" }
+  "$": { commit: "$" }
+  "^": { commit: "^" }
+  "&": { commit: "&" }
+  "*": { commit: "*" }
+  "(": { commit: "(" }
+  ")": { commit: ")" }
+  "_": { commit: "_" }
+  "+": { commit: "+" }
+  "=": { commit: "=" }
+  "[": { commit: "｢" }
+  "]": { commit: "｣" }
+  "{": { commit: "{" }
+  "}": { commit: "}" }

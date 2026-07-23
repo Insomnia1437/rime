@@ -2,35 +2,18 @@
 # 上游 schema 和词库可以直接更新；本文件保留本项目的按键习惯。
 
 patch:
-  # 方案只负责语言/转换引擎；假名种类与英数状态在本方案的开关中选择。
-  schema/name: 日本語・Kagiroi
+  schema/name: 日语
 
-  # 半角英数由 ascii_mode 控制；其余四种常用字符形态放在同一个模式组。
-  switches:
-    - name: ascii_mode
-      reset: 0
-      states: [ 変換入力, 英数（半角） ]
-    - options: [ hiragana, katakana, hw_katakana, full_shape ]
-      reset: 0
-      states: [ ひらがな, 全角カナ, 半角ｶﾅ, 全角英数 ]
-    - name: ascii_punct
-      reset: 0
-      states: [ 和文記号, 英文記号 ]
-    - name: emoji
-      states: [ 絵文字なし, 絵文字あり ]
+  # 标准日语方案固定为平假名/汉字转换，不在方案菜单重复展示字符模式。
+  switches: []
 
   # 不使用上游的 -/= 翻页，避免影响日语长音「ー」。
-  # Ctrl+u/i/o 模式快捷键也不需要，字符模式统一从 Ctrl+. 菜单选择。
+  # Ctrl+u/i/o 模式快捷键也不需要，宽度模式统一从 Ctrl+. 选择方案。
   key_binder/bindings:
     __include: default:/key_binder/bindings
 
-  # 全角英数模式保留组合输入与编辑能力；其他模式继续交给 Kagiroi。
-  engine/processors/@3: lua_processor@*kagiroi_input_mode_processor
-  engine/translators:
-    - punct_translator
-    - table_translator@custom_phrase
-    - lua_translator@*fullwidth_ascii_translator
-    - lua_translator@*kagiroi/kagiroi_translator
+  engine/processors:
+    __include: kagiroi_personal:/processors
 
-  # Kagiroi 的假名处理器仍只接收小写罗马字；扩展主 speller 供全角英数使用。
-  speller/alphabet: "ょぁぃぅぇぉあいうえおかきくけこがぎぐげごさしすせそざじずぜぞたちつてとだぢづでどなにぬねのはひふへほばびぶべぼぱぴぷぺぽまみむめもやゆよらりるれろわゐ𛄟ゑをんゃっゕゖーゅabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-;"
+  personal_kagiroi/default_kana_mode: hiragana
+  personal_kagiroi/default_ascii_width: half

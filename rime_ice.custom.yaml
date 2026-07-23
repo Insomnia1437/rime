@@ -2,6 +2,8 @@
 # 仅调整已有候选词顺序，不创建新编码；固定缩写继续写在 custom_phrase.txt。
 
 patch:
+  schema/name: 中文
+
   # 仅为个人技术词库启用前缀补全，避免整个通用英文库产生大量补全候选。
   schema/dependencies/+:
     - personal_en
