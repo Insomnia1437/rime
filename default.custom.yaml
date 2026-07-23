@@ -5,11 +5,8 @@ patch:
   schema_list:
     - schema: rime_ice
     - schema: kagiroi
-    - schema: kagiroi_katakana
-    - schema: kagiroi_half_katakana
-    - schema: kagiroi_fullwidth
 
-  # Ctrl+. 打开五项常用方案菜单；F4 保留为备用入口。
+  # Ctrl+. 打开方案与状态菜单；F4 保留为备用入口。
   switcher/hotkeys:
     - Control+period
     - F4
