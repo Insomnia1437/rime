@@ -1,0 +1,34 @@
+# Rime schema
+# encoding: utf-8
+#
+# 仅用于编译 personal_en 词典，作为 rime_ice 的个人英文补全依赖。
+# 该方案未加入 default.custom.yaml 的 schema_list，不会出现在切换菜单中。
+
+schema:
+  schema_id: personal_en
+  name: 个人英文词库（编译依赖）
+  version: "2026-07-23"
+
+engine:
+  processors:
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  algebra:
+    # 与 melt_eng 使用相同派生规则，使 STM32、MTCA.4、RISC-V 等编码
+    # 可以通过字母形式和去标点形式输入。
+    __include: melt_eng.schema.yaml:/algebra_rime_ice
+
+translator:
+  dictionary: personal_en
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false

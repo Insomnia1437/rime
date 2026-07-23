@@ -6,8 +6,6 @@ patch:
       ascii_mode: true
     com.uranusjr.macdown:
       ascii_mode: true
-    org.mozilla.firefox:
-      ascii_mode: true
     com.raycast.macos:
       ascii_mode: true
     com.microsoft.VSCode:

@@ -1,0 +1,70 @@
+# 雾凇拼音个人候选排序。
+# 仅调整已有候选词顺序，不创建新编码；固定缩写继续写在 custom_phrase.txt。
+
+patch:
+  # 仅为个人技术词库启用前缀补全，避免整个通用英文库产生大量补全候选。
+  schema/dependencies/+:
+    - personal_en
+
+  engine/translators/+:
+    - table_translator@personal_en_completion
+
+  personal_en_completion:
+    dictionary: personal_en
+    enable_completion: true
+    enable_sentence: false
+    enable_user_dict: false
+    initial_quality: 0.9
+    comment_format:
+      - xform/.*//
+
+  pin_cand_filter:
+    - "q\t去 千"
+    - "w\t我 万 往"
+    - "t\t他 她 它 祂"
+    - "y\t与 于"
+    - "u\t有 又 由"
+    - "i\t一 以 已 亦"
+    - "p\t片 篇"
+    - "s\t是 时 使 式"
+    - "d\t的 地 得"
+    - "f\t发 分"
+    - "g\t个"
+    - "h\t和 或"
+    - "j\t及 将 即 既 继"
+    - "k\t可"
+    - "l\t了 啦 喽 嘞"
+    - "z\t在 再 自"
+    - "x\t想 像 向"
+    - "c\t才 从"
+    - "b\t吧 百 呗"
+    - "n\t那 哪 拿 呐"
+    - "m\t吗 嘛 呣"
+
+    # 个人英文技术词，保持原先 custom_phrase 中的优先级习惯。
+    - "go\tgo"
+    - "golang\tGolang"
+    - "hugo\tHugo"
+    - "todo\tTODO"
+    - "amazon\tAmazon"
+    - "nasa\tNASA"
+    - "microtca\tMicroTCA"
+    - "epics\tepics"
+    - "amc\tAMC"
+    - "mch\tMCH"
+    - "arduino\tarduino"
+    - "bootloader\tBootloader"
+    - "vxworks\tVxWorks"
+    - "vxw\tVxWorks"
+    - "iocinit\tiocInit"
+    - "mrfioc2\tmrfioc2"
+    - "devlib2\tdevlib2"
+    - "iocstats\tiocStats"
+    - "stm32\tSTM32"
+    - "fmc\tFMC"
+    - "evg\tEVG"
+    - "evr\tEVR"
+    - "evm\tEVM"
+    - "vme\tVME"
+    - "cpci\tcPCI"
+    - "camac\tCAMAC"

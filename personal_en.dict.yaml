@@ -1,0 +1,13 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 个人英文词库的独立编译入口，供 rime_ice 中的前缀补全翻译器使用。
+# 实际词条统一维护在 en_dicts/personal_en.dict.yaml。
+
+---
+name: personal_en
+version: "2026-07-23"
+sort: by_weight
+import_tables:
+  - en_dicts/personal_en
+...

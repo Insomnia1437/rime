@@ -1,0 +1,408 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 个人英文与技术词库。
+# 权重约定：
+#   200000：原有个人词条及最常用术语
+#   180000：核心领域术语
+#   160000：相关工具、命令及扩展术语
+#   150000：提前提示用的确定性缩写编码
+
+---
+name: personal_en
+version: "2026-07-23"
+sort: by_weight
+...
+
+# 原有常用词
+go	go	200000
+goto	goto	200000
+domain	domain	200000
+TODO	todo	200000
+Dota	dota	200000
+main	main	200000
+Amazon	amazon	200000
+NASA	nasa	200000
+gone	gone	200000
+code	code	200000
+SOHO	soho	200000
+Hugo	hugo	200000
+Logseq	logseq	200000
+
+# Go 语言与工具链
+Golang	golang	200000
+gofmt	gofmt	180000
+gopls	gopls	180000
+cgo	cgo	180000
+GoReleaser	goreleaser	180000
+GoReleaser	gorel	150000
+Delve	delve	180000
+goroutine	goroutine	180000
+Goroutine	goroutine	170000
+GoLand	goland	170000
+go.mod	gomod	180000
+go.sum	gosum	180000
+go.work	gowork	170000
+GoModule	gomodule	170000
+GoWorkspace	goworkspace	160000
+GOMAXPROCS	gomaxprocs	160000
+CGO_ENABLED	cgoenabled	160000
+pprof	pprof	170000
+godoc	godoc	160000
+goimports	goimports	160000
+golangci-lint	golangcilint	160000
+
+# Linux、Linux kernel 与系统工具
+Manjaro	manjaro	200000
+Linux	linux	190000
+Linux kernel	linuxkernel	180000
+Linux kernel	kernel	150000
+kernel module	kernelmodule	180000
+device driver	devicedriver	180000
+device driver	devdriver	150000
+DeviceTree	devicetree	180000
+DeviceTree	devtree	150000
+device tree overlay	devicetreeoverlay	160000
+Kbuild	kbuild	170000
+initramfs	initramfs	170000
+BusyBox	busybox	170000
+systemd	systemd	170000
+udev	udev	170000
+sysfs	sysfs	170000
+procfs	procfs	170000
+debugfs	debugfs	170000
+ioctl	ioctl	170000
+mmap	mmap	170000
+DMA	dma	180000
+IRQ	irq	180000
+MSI	msi	170000
+MSI-X	msix	170000
+VFIO	vfio	170000
+UIO	uio	170000
+modprobe	modprobe	170000
+insmod	insmod	170000
+rmmod	rmmod	170000
+dmesg	dmesg	170000
+depmod	depmod	160000
+ethtool	ethtool	160000
+devmem	devmem	160000
+cross-compile	crosscompile	160000
+toolchain	toolchain	160000
+Buildroot	buildroot	180000
+Yocto	yocto	180000
+OpenEmbedded	openembedded	160000
+BitBake	bitbake	160000
+QEMU	qemu	170000
+
+# Raspberry Pi 与嵌入式系统
+raspi	raspi	200000
+Raspi	raspi	199000
+Raspberry Pi	raspberrypi	180000
+Raspberry Pi	raspberry	150000
+Raspberry Pi OS	raspberrypios	170000
+raspi-config	raspiconfig	170000
+BCM2711	bcm2711	170000
+BCM2712	bcm2712	170000
+GPIO	gpio	180000
+pigpio	pigpio	160000
+WiringPi	wiringpi	160000
+arduino	arduino	200000
+Arduino	arduino	190000
+Bootloader	bootloader	200000
+Bootloader	boot	150000
+baremetal	baremetal	180000
+RTOS	rtos	180000
+FreeRTOS	freertos	180000
+Zephyr	zephyr	180000
+RTEMS	rtems	180000
+VxWorks	vxworks	200000
+VxWorks	vxw	200000
+OpenOCD	openocd	180000
+U-Boot	uboot	180000
+GDB	gdb	180000
+gdbserver	gdbserver	170000
+JTAG	jtag	180000
+SWD	swd	170000
+UART	uart	170000
+I2C	i2c	170000
+SPI	spi	170000
+CAN	can	160000
+CANopen	canopen	160000
+
+# EPICS Base、客户端与 IOC
+epics	epics	200000
+EPICS	epics	199000
+EPICS Base	epicsbase	180000
+EPICS 7	epics7	180000
+IOC	ioc	190000
+IOC shell	iocshell	180000
+iocsh	iocsh	180000
+iocInit	iocinit	200000
+iocStats	iocstats	200000
+devIocStats	deviocstats	180000
+softIoc	softioc	180000
+softIocPVA	softiocpva	170000
+PV	pv	190000
+PVA	pva	190000
+PVAccess	pvaccess	180000
+pvAccess	pvaccess	179000
+pvDatabase	pvdatabase	180000
+pvDatabase	pvdb	150000
+PVXS	pvxs	180000
+ChannelAccess	channelaccess	180000
+ChannelAccess	chan	150000
+CA	ca	170000
+P4P	p4p	170000
+CAFE	cafe	160000
+PyEpics	pyepics	170000
+caproto	caproto	170000
+caget	caget	180000
+caput	caput	180000
+camonitor	camonitor	180000
+cainfo	cainfo	170000
+pvget	pvget	170000
+pvput	pvput	170000
+pvmonitor	pvmonitor	170000
+dbpf	dbpf	180000
+dbpr	dbpr	170000
+dbgf	dbgf	170000
+dbLoadRecords	dbloadrecords	180000
+dbLoadRecords	dbloadr	150000
+dbLoadDatabase	dbloaddatabase	180000
+dbLoadDatabase	dbloadd	150000
+dbd	dbd	170000
+dbLoadTemplate	dbloadtemplate	170000
+dbLoadTemplate	dbloadt	150000
+makeBaseApp	makebaseapp	160000
+makeBaseApp	makebase	150000
+procServ	procserv	180000
+autosave	autosave	180000
+recsync	recsync	160000
+sequencer	sequencer	170000
+State Notation Language	snl	160000
+
+# EPICS modules 与设备支持
+asyn	asyn	200000
+Asyn	asyn	190000
+StreamDevice	streamdevice	180000
+StreamDevice	streamd	150000
+areaDetector	areadetector	180000
+areaDetector	aread	150000
+ADCore	adcore	180000
+ADSupport	adsupport	170000
+NDPlugin	ndplugin	170000
+ADGenICam	adgenicam	170000
+ADAravis	adaravis	170000
+ADProsilica	adprosilica	160000
+ADSpinnaker	adspinnaker	160000
+ADSimDetector	adsimdetector	160000
+motor	motor	170000
+MotorRecord	motorrecord	170000
+MotorSim	motorsim	160000
+modbus	modbus	180000
+ether_ip	etherip	170000
+sscan	sscan	160000
+calc	calc	160000
+busy	busy	160000
+ipac	ipac	170000
+delaygen	delaygen	160000
+mca	mca	160000
+mrfioc2	mrfioc2	200000
+mrfCommon	mrfcommon	170000
+mrmShared	mrmshared	170000
+mrmEvg	mrmevg	170000
+mrmEvr	mrmevr	170000
+devlib2	devlib2	200000
+PCAS	pcas	160000
+normativeTypes	normativetypes	160000
+QSRV	qsrv	160000
+EPICS Qt	epicsqt	160000
+CS-Studio	csstudio	180000
+Phoebus	phoebus	180000
+MEDM	medm	180000
+EDM	edm	170000
+CSS	css	160000
+Archiver Appliance	archiverappliance	160000
+Archiver Appliance	archiver	150000
+save_restore	saverestore	160000
+
+# VME、CAMAC、MicroTCA 与 PCIe
+VME	vme	200000
+VMEbus	vmebus	180000
+VME64x	vme64x	180000
+Universe II	universe2	160000
+Tsi148	tsi148	170000
+MVME	mvme	170000
+MVME5500	mvme5500	170000
+MVME6100	mvme6100	170000
+CAMAC	camac	200000
+cPCI	cpci	200000
+CompactPCI	compactpci	180000
+MicroTCA	microtca	200000
+MicroTCA	micro	150000
+MTCA	mtca	180000
+MTCA.4	mtca4	180000
+uTCA	utca	180000
+AMC	amc	200000
+MCH	mch	200000
+RTM	rtm	180000
+FMC	fmc	200000
+backplane	backplane	200000
+IPMI	ipmi	180000
+PCIe	pcie	190000
+PCI Express	pciexpress	180000
+PCI Express	pciex	150000
+PCIe endpoint	pcieendpoint	170000
+PCIe endpoint	pcieep	150000
+PCIe root complex	pcierootcomplex	170000
+PCIe root complex	pcierc	150000
+PCIe switch	pcieswitch	170000
+PCIe Gen3	pciegen3	170000
+PCIe Gen4	pciegen4	170000
+PCIe Gen5	pciegen5	160000
+PXIe	pxie	180000
+scatter-gather	scattergather	160000
+BAR	bar	160000
+
+# FPGA、Verilog 与数字设计
+FPGA	fpga	190000
+SoC	soc	180000
+AArch64	aarch64	180000
+RISC-V	riscv	180000
+altera	altera	200000
+Altera	altera	190000
+xilinx	xilinx	200000
+Xilinx	xilinx	190000
+AMD Xilinx	amdxilinx	170000
+Intel FPGA	intelfpga	170000
+STM32	stm32	200000
+Zynq	zynq	180000
+ZynqMP	zynqmp	170000
+MicroBlaze	microblaze	170000
+Nios II	nios2	170000
+Kintex	kintex	180000
+Artix	artix	180000
+Virtex	virtex	170000
+Cyclone	cyclone	170000
+Stratix	stratix	170000
+Versal	versal	170000
+Verilog	verilog	190000
+SystemVerilog	systemverilog	180000
+SystemVerilog	systemv	150000
+VHDL	vhdl	180000
+RTL	rtl	180000
+HDL	hdl	170000
+testbench	testbench	170000
+Vivado	vivado	180000
+Vivado HLS	vivadohls	170000
+Vitis	vitis	170000
+Quartus	quartus	180000
+ModelSim	modelsim	170000
+Questa	questa	170000
+Verilator	verilator	170000
+cocotb	cocotb	170000
+Icarus Verilog	iverilog	160000
+Yosys	yosys	160000
+GTKWave	gtkwave	160000
+synthesis	synthesis	160000
+implementation	implementation	160000
+timing closure	timingclosure	160000
+timing constraint	timingconstraint	160000
+CDC	cdc	170000
+XDC	xdc	170000
+SDC	sdc	170000
+AXI	axi	180000
+AXI4	axi4	180000
+AXI-Lite	axilite	170000
+AXI-Stream	axistream	170000
+Avalon	avalon	160000
+Wishbone	wishbone	160000
+BRAM	bram	170000
+FIFO	fifo	170000
+PLL	pll	170000
+MMCM	mmcm	170000
+ILA	ila	170000
+VIO	vio	170000
+LVDS	lvds	170000
+JESD204B	jesd204b	170000
+JESD204C	jesd204c	170000
+Aurora	aurora	160000
+GTX	gtx	160000
+GTH	gth	160000
+GTY	gty	160000
+
+# 工业通信与仪器协议
+EtherCAT	ethercat	180000
+Modbus	modbus	180000
+Modbus TCP	modbustcp	170000
+SCPI	scpi	180000
+OPC UA	opcua	170000
+PROFINET	profinet	160000
+EtherNet/IP	ethernetip	160000
+TCP/IP	tcpip	170000
+UDP	udp	160000
+ZeroMQ	zeromq	160000
+MQTT	mqtt	160000
+
+# Python、科学计算与开发工具
+Python	python	190000
+CPython	cpython	180000
+PyPy	pypy	170000
+pip	pip	180000
+pipx	pipx	170000
+venv	venv	170000
+virtualenv	virtualenv	160000
+Poetry	poetry	170000
+pytest	pytest	180000
+pyproject.toml	pyproject	180000
+setuptools	setuptools	160000
+wheel	wheel	160000
+NumPy	numpy	180000
+SciPy	scipy	180000
+pandas	pandas	170000
+Matplotlib	matplotlib	170000
+Jupyter	jupyter	170000
+IPython	ipython	170000
+asyncio	asyncio	170000
+mypy	mypy	170000
+Ruff	ruff	170000
+Black	black	160000
+Pylint	pylint	160000
+Cython	cython	170000
+pybind11	pybind11	170000
+ctypes	ctypes	160000
+dataclass	dataclass	160000
+FastAPI	fastapi	170000
+Flask	flask	160000
+Django	django	160000
+__init__.py	initpy	160000
+
+# Git 与代码托管
+Git	git	190000
+GitHub	github	180000
+GitLab	gitlab	180000
+.gitignore	gitignore	180000
+.gitmodules	gitmodules	170000
+git commit	gitcommit	170000
+git rebase	gitrebase	170000
+git cherry-pick	gitcherrypick	170000
+git bisect	gitbisect	160000
+git reflog	gitreflog	160000
+git worktree	gitworktree	170000
+git submodule	gitsubmodule	170000
+git stash	gitstash	160000
+git blame	gitblame	160000
+git fetch	gitfetch	160000
+git pull	gitpull	160000
+git push	gitpush	160000
+fast-forward	fastforward	160000
+cherry-pick	cherrypick	170000
+worktree	worktree	170000
+submodule	submodule	170000
+GitHub Actions	githubactions	170000
+GitLab CI	gitlabci	160000
+
+# 其他原有硬件缩写
+EVM	evm	200000
+EVG	evg	200000
+EVR	evr	200000

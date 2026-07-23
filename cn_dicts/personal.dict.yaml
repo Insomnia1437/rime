@@ -1,0 +1,12 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 个人中文及中英混合词库。此文件不会随 rime-ice 上游词库更新而覆盖。
+
+---
+name: personal
+version: "2026-07-23"
+sort: by_weight
+...
+Go程	go cheng	100000
+

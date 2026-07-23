@@ -1,0 +1,74 @@
+# Rime 全局个人配置
+# 上游 default.yaml 可直接更新；本文件只保存本项目的方案、快捷键与输入习惯。
+
+patch:
+  schema_list:
+    - schema: rime_ice
+    - schema: jaroomaji
+
+  # F4 保留完整方案菜单；Ctrl+. 在 key_binder 中直接切换最近的两个方案。
+  switcher/hotkeys:
+    - F4
+
+  # 保留原有的左右 Shift 行为。
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      Caps_Lock: noop
+      Shift_L: commit_code
+      Shift_R: commit_text
+      Control_L: noop
+      Control_R: noop
+
+  # 支持 google.com、README.md 等网址和文件名。
+  recognizer/patterns/url_2: "^[A-Za-z]+[.].*"
+
+  # 以词定字改用 Ctrl+[ / Ctrl+]，普通 [ ] 继续用于翻页。
+  key_binder/select_first_character: "Control+bracketleft"
+  key_binder/select_last_character: "Control+bracketright"
+
+  # 完整替换上游快捷键列表，以免 -/= 翻页影响日语长音输入。
+  key_binder/bindings:
+    - { when: always, accept: Control+period, select: .next }
+
+    - { when: composing, accept: Shift+Tab, send: Shift+Left }
+    - { when: composing, accept: Tab, send: Shift+Right }
+
+    - { when: paging, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
+
+    - { when: always, accept: Control+Shift+3, toggle: ascii_punct }
+    - { when: always, accept: Control+Shift+numbersign, toggle: ascii_punct }
+    - { when: always, accept: Control+Shift+4, toggle: traditionalization }
+    - { when: always, accept: Control+Shift+dollar, toggle: traditionalization }
+
+    - { when: composing, accept: Control+p, send: Up }
+    - { when: composing, accept: Control+n, send: Down }
+    - { when: composing, accept: Control+b, send: Left }
+    - { when: composing, accept: Control+f, send: Right }
+    - { when: composing, accept: Control+a, send: Home }
+    - { when: composing, accept: Control+e, send: End }
+    - { when: composing, accept: Control+d, send: Delete }
+    - { when: composing, accept: Control+k, send: Shift+Delete }
+    - { when: composing, accept: Control+h, send: BackSpace }
+    - { when: composing, accept: Control+g, send: Escape }
+
+    - { when: never, accept: Shift+space, toggle: ascii_mode }
+
+    - { when: composing, accept: KP_0, send: 0 }
+    - { when: composing, accept: KP_1, send: 1 }
+    - { when: composing, accept: KP_2, send: 2 }
+    - { when: composing, accept: KP_3, send: 3 }
+    - { when: composing, accept: KP_4, send: 4 }
+    - { when: composing, accept: KP_5, send: 5 }
+    - { when: composing, accept: KP_6, send: 6 }
+    - { when: composing, accept: KP_7, send: 7 }
+    - { when: composing, accept: KP_8, send: 8 }
+    - { when: composing, accept: KP_9, send: 9 }
+    - { when: composing, accept: KP_Decimal, send: period }
+    - { when: composing, accept: KP_Multiply, send: asterisk }
+    - { when: composing, accept: KP_Add, send: plus }
+    - { when: composing, accept: KP_Subtract, send: minus }
+    - { when: composing, accept: KP_Divide, send: slash }
+    - { when: composing, accept: KP_Enter, send: Return }
+
