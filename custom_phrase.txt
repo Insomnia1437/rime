@@ -244,3 +244,6 @@ FMC	fmc
 EVG	evg
 EVR	evr
 EVM	evm
+VME	vme
+cPCI	cpci
+CAMAC	camac
