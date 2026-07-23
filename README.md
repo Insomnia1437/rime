@@ -110,4 +110,4 @@ patch:
 6. [DreamAfar/Rime-Japanese ](https://github.com/DreamAfar/Rime-Japanese)
 7. [日本語のローマ字表記の推奨形式](https://park.itc.u-tokyo.ac.jp/eigo/UT-Komaba-Nihongo-no-romaji-hyoki-v1.pdf)
 8. [rimeinn/rime-kagiroi](https://github.com/rimeinn/rime-kagiroi)
-9. [lazyfoxchan/rime-jaroomaji](https://github.com/lazyfoxchan/rime-jaroomaji)（旧日语方案，配置文件仅作为回退保留）
+9. [lazyfoxchan/rime-jaroomaji](https://github.com/lazyfoxchan/rime-jaroomaji)（旧日语方案参考，相关配置和词库现已移除）
