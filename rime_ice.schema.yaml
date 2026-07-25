@@ -22,8 +22,8 @@ schema:
 # states: 方案选单显示的名称。可以注释掉，仍可以通过快捷键切换。
 # abbrev: 默认的缩写取 states 的第一个字符，abbrev 可自定义一个字符
 switches:
-  - name: ascii_mode
-    states: [ 中, Ａ ]
+  # - name: ascii_mode
+  #   states: [ 中, Ａ ]
   - name: ascii_punct  # 中英标点
     states: [ ¥, $ ]
     reset: 1
@@ -34,6 +34,7 @@ switches:
     reset: 1
   - name: full_shape
     states: [ 半角, 全角 ]
+    reset: 0
   - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
     states: [正常, 单字]
     abbrev: [词, 单]
@@ -239,9 +240,41 @@ traditionalize:
 #   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols_v.yaml 修改成了 'v' 开头。
 # 以及新版 digit_separators 相关的属性
 punctuator:
-  __include: default:/punctuator               # 从 default.yaml 导入 punctuator 的所有配置，为了引用 digit_separators 等属性
+  digit_separators: ",.:"                       # 与 default.yaml 保持一致
   full_shape:
-    __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
+    " ": { commit: "　" }
+    "!": { commit: "！" }
+    '"': { pair: [ "“", "”" ] }
+    "#": { commit: "＃" }
+    "$": { commit: "￥" }
+    "%": { commit: "％" }
+    "&": { commit: "＆" }
+    "'": { pair: [ "‘", "’" ] }
+    "(": { commit: "（" }
+    ")": { commit: "）" }
+    "*": { commit: "＊" }
+    "+": { commit: "＋" }
+    ",": { commit: "，" }
+    "-": { commit: "－" }
+    ".": { commit: "。" }
+    "/": { commit: "／" }
+    ":": { commit: "：" }
+    ";": { commit: "；" }
+    "<": { commit: "《" }
+    "=": { commit: "＝" }
+    ">": { commit: "》" }
+    "?": { commit: "？" }
+    "@": { commit: "＠" }
+    "[": { commit: "［" }
+    "\\": { commit: "、" }
+    "]": { commit: "］" }
+    "^": { commit: "……" }
+    "_": { commit: "——" }
+    "`": { commit: "｀" }
+    "{": { commit: "｛" }
+    "|": { commit: "｜" }
+    "}": { commit: "｝" }
+    "~": { commit: "～" }
   half_shape:
     __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
   symbols:
