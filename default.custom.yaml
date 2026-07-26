@@ -2,6 +2,7 @@
 # 上游 default.yaml 可直接更新；本文件只保存本项目的方案、快捷键与输入习惯。
 
 patch:
+  switcher/fix_schema_list_order: true
   schema_list:
     - schema: rime_ice
     - schema: kagiroi

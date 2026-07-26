@@ -5,7 +5,9 @@ patch:
   schema/name: 日语
 
   # 标准日语方案固定为平假名/汉字转换，不在方案菜单重复展示字符模式。
-  switches: []
+  switches:
+   - name: ascii_mode
+     states: [ 日, Ａ ]
 
   # 不使用上游的 -/= 翻页，避免影响日语长音「ー」。
   # Ctrl+u/i/o 模式快捷键也不需要，宽度模式统一从 Ctrl+. 选择方案。
